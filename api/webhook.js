@@ -12,5 +12,5 @@ export default async function handler(req, res) {
       return res.status(500).json({ error: "Error" });
     }
   }
-  return res.status(405).json({ error: "YOU SMELL" });
+  return res.status(405).json({ error: "Tung Tung Tung Sahur will find you" });
 }
